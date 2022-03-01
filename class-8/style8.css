@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width: 50%;
+  height: 30vh;
+  background-color: rgb(253, 253, 253);
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.text {
+  display: inline-block;
+  width: 65%;
+}
+
+.image {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  width: 30px;
+  height: 30px;
+}
