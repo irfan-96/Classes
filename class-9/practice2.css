@@ -1,0 +1,40 @@
+div {
+  width: 100px;
+  height: 200px;
+  display: inline-block;
+  border: solid black;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.div1 {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.div2 {
+  width: 60px;
+  height: 60px;
+  top: 40px;
+  left: 90px;
+  position: absolute;
+}
+
+.div3 {
+  width: 200px;
+  height: 80px;
+  top: 100px;
+  left: 20px;
+  position: absolute;
+}
+
+.div4 {
+  width: 60px;
+  height: 170px;
+  top: 10px;
+  left: 200px;
+  position: absolute;
+}

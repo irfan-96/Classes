@@ -1,0 +1,27 @@
+div {
+  width: 100px;
+  height: 200px;
+  display: inline-block;
+  border: solid black;
+  border-radius: 5px;
+  position: absolute;
+}
+p {
+  text-align: center;
+}
+
+.div1 {
+  left: 20%;
+}
+
+.div2 {
+  left: 40%;
+}
+
+.div3 {
+  left: 60%;
+}
+
+.div4 {
+  left: 80%;
+}

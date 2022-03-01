@@ -1,0 +1,27 @@
+#container {
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  padding: 50px 5%;
+  background-color: rgb(221, 221, 221);
+  box-sizing: border-box;
+}
+
+#first {
+  width: 30%;
+  height: 100%;
+  background-color: grey;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+}
+#first p {
+  display: table;
+}
+
+#second {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(105, 105, 105);
+  display: inline-block;
+}
