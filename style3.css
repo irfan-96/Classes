@@ -1,7 +1,15 @@
+@font-face {
+  font-family: Maghfirea;
+  src: url(./fonts/Maghfirea);
+}
+
 * {
   box-sizing: border-box;
   background-color: black;
   font-family: Helvetica, sans-serif;
+}
+body {
+  margin: 0;
 }
 
 .logo {
@@ -19,23 +27,18 @@
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-
   position: absolute;
-  width: 263px;
-  height: 37px;
   left: 1073px;
-  top: 124px;
+  top: 114px;
 }
 
-li {
-  list-style-type: none;
-  padding: 30px;
+.navigacija li {
+  margin: 0px 15px;
 }
 
 a {
   color: white;
   text-decoration: none;
-
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -46,12 +49,12 @@ a {
   margin-bottom: 0;
 }
 .main h1 {
-  font-family: "Times New Roman", Times, serif;
   color: white;
-  width: 810px;
-  font-size: 52px;
+  width: 650px;
+  font-size: 2.7em;
   font-weight: 500;
   margin-top: 0;
+  font-family: Maghfirea;
 }
 
 .intro {
@@ -65,14 +68,12 @@ a {
   color: white;
   left: 120px;
   top: 800px;
-  height: 100vh;
-  width: 1400px;
 }
 
 #iphon1 {
   width: 215.81px;
   height: 529.01px;
-  margin-right: 100px;
+  margin-right: 200px;
 }
 
 #iphon2 {
