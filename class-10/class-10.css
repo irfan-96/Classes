@@ -1,0 +1,23 @@
+#img {
+  float: left;
+}
+
+#img img {
+  width: 50%;
+  height: 50%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 200vh;
+}
+
+.img2 {
+  float: right;
+}
+
+.img2 img {
+  width: 50%;
+  height: 50%;
+}
