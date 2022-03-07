@@ -1,17 +1,13 @@
 @font-face {
-  font-family: Maghfirea;
-  src: url(./fonts/Maghfirea);
-}
-
-@font-face {
-  font-family: Bluu;
-  src: url(./fonts/BluuNext-Bold.otf);
+  font-family: Respira;
+  src: url(./fonts/DellaRespira-Regular.ttf);
 }
 
 * {
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
 }
+
 body {
   margin: 0;
   background-color: black;
@@ -45,6 +41,11 @@ nav {
   left: 70%;
 }
 
+.navigacija li a:hover {
+  font-family: Respira;
+  font-size: 1.9em;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -53,7 +54,7 @@ a {
 }
 
 .main {
-  height: 500px;
+  height: 100vh;
 }
 
 .hello {
@@ -65,9 +66,9 @@ a {
   color: white;
   width: 60%;
   font-size: 2.7em;
-  font-weight: 500;
   margin-top: 0;
-  font-family: Maghfirea;
+  font-weight: 100;
+  font-family: Bagnard;
 }
 
 .intro {
@@ -76,38 +77,19 @@ a {
   left: 8%;
 }
 
-#iphon1 {
-  width: 215.81px;
-  height: 529.01px;
-  margin-right: 200px;
-  left: 8%;
+.main img {
   position: relative;
+  top: 50%;
+  left: 76%;
+  width: 130px;
+  height: 130px;
 }
-
-#iphon2 {
-  width: 215.81px;
-  height: 529.01px;
-}
-
-.mojmeni img {
-  display: inline-block;
-}
-
-.frame {
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
-  border-top: 1px solid white;
-  width: px;
-  height: 530px;
-  display: flex;
+.main img:hover {
+  transition: all 1s ease-in-out 0.3s;
+  cursor: default;
+  transform: rotate(360deg);
 }
 
 .mojmeni {
   display: flex;
-}
-
-.project1 {
-  color: white;
-  position: relative;
-  left: 70%;
 }
