@@ -1,0 +1,15 @@
+.categories1 {
+  display: inline-block;
+  margin: 0px 10px;
+  width: 17%;
+}
+
+.header {
+  display: inline-block;
+  width: 17%;
+  vertical-align: top;
+}
+
+* {
+  font-family: arial;
+}

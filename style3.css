@@ -1,11 +1,22 @@
 @font-face {
-  font-family: Respira;
-  src: url(./fonts/DellaRespira-Regular.ttf);
+  font-family: VG;
+  src: url(./fonts/VG5000-Regular.otf);
+}
+
+@font-face {
+  font-family: Milimetre;
+  src: url(./fonts/Millimetre-Regular.otf);
+}
+
+@font-face {
+  font-family: Format;
+  src: url(./fonts/Format_1452.otf);
 }
 
 * {
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
+  cursor: url(./cursor.png), pointer;
 }
 
 body {
@@ -14,12 +25,12 @@ body {
 }
 
 nav {
-  height: 200px;
+  height: 250px;
 }
 
 .logo {
   position: relative;
-  top: 124px;
+  top: 90px;
 }
 
 .logo img {
@@ -31,7 +42,8 @@ nav {
 .navigacija {
   position: relative;
   padding: 0px;
-  top: 65px;
+  top: 50px;
+  margin: 0;
 }
 
 .navigacija li {
@@ -42,8 +54,7 @@ nav {
 }
 
 .navigacija li a:hover {
-  font-family: Respira;
-  font-size: 1.9em;
+  color: #f6e81d;
 }
 
 a {
@@ -66,9 +77,10 @@ a {
   color: white;
   width: 60%;
   font-size: 2.7em;
-  margin-top: 0;
-  font-weight: 100;
-  font-family: Bagnard;
+  margin-top: 10px;
+  font-family: Format;
+  font-weight: 400;
+  line-height: 110%;
 }
 
 .intro {
@@ -79,17 +91,51 @@ a {
 
 .main img {
   position: relative;
-  top: 50%;
+  top: 45%;
   left: 76%;
   width: 130px;
   height: 130px;
 }
 .main img:hover {
   transition: all 1s ease-in-out 0.3s;
-  cursor: default;
   transform: rotate(360deg);
 }
 
 .mojmeni {
   display: flex;
+}
+
+.flo h1 {
+  font-size: 2.7em;
+  width: 50%;
+  font-family: Format;
+  height: 50px;
+  overflow: hidden;
+  color: white;
+  position: absolute;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+  /* Apply animation to this element */
+  animation: my-scroll 5s linear infinite;
+  transform: translateX();
+}
+
+/* Move it (define the animation) */
+@keyframes my-scroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.flo {
+  padding-top: 5px;
+  height: 7vh;
+  border-bottom: 1px solid white;
+  overflow: hidden;
+  position: relative;
 }
