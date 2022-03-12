@@ -16,7 +16,8 @@
 * {
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
-  cursor: url(./cursor.png), pointer;
+  cursor: url(./cursor.png) 25 25, pointer;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -134,7 +135,7 @@ a {
   text-align: center;
   letter-spacing: 5px;
   /* Apply animation to this element */
-  animation: my-scroll 5s linear infinite;
+  animation: my-scroll 10s linear infinite;
   transform: translateX();
 }
 
@@ -154,4 +155,18 @@ a {
   border-bottom: 1px solid white;
   overflow: hidden;
   position: relative;
+}
+
+#projects {
+  height: 100vh;
+  width: auto;
+}
+
+.projects-header h1 {
+  color: white;
+  font-size: 104px;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  text-align: center;
+  margin: 0;
 }
