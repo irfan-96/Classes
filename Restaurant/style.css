@@ -1,0 +1,44 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./hero-bg.jpg);
+  background-size: auto;
+  background-color: black;
+}
+
+.topbar {
+  padding-left: 50px;
+  padding-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.top-mobile {
+  color: white;
+}
+
+.top-time {
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  opacity: 70%;
+}
+
+header h1 {
+  color: white;
+  font-size: 32px;
+  letter-spacing: 4px;
+  position: relative;
+  padding-left: 50px;
+  font-weight: 300;
+}

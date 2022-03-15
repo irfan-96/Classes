@@ -57,7 +57,7 @@ nav {
 .navigacija li a:after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 50%;
   transform: scaleX(0);
   height: 1px;
   bottom: 0;
