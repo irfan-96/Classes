@@ -176,7 +176,6 @@ nav ul li a:hover {
   border-radius: 50%;
   transform: scale(1);
   animation: pulse 2s infinite;
-  z-index: -1;
 }
 
 #About {
@@ -475,6 +474,7 @@ background-color: rgba(255, 255, 255, 0.356);
   width: 100%;
   height: 60vh;
   background-color: #0c0b09;
+  padding: 50px 100px;
 }
 
 .specials-header {
@@ -482,7 +482,6 @@ background-color: rgba(255, 255, 255, 0.356);
  flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  padding: 50px 100px;
  }
  
  .specials-header-1strow {
@@ -514,4 +513,165 @@ background-color: rgba(255, 255, 255, 0.356);
  background-color: rgba(255, 255, 255, 0.356);
  }
 
+ .specials-content {
+   width: 100%;
+   height: 80%;
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-between;
+ }
  
+ .specials-img img {
+   width: 260px;
+   height: 268px;
+ }
+
+ .specials-content-nav {
+   width: 30%;
+ }
+
+ .specials-content-desc {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0px 10px;
+}
+
+.specials-content-desc h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 26px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.specials-content-desc i {
+  padding-top: 20px;
+}
+
+.specials-content-desc p {
+  padding-top: 20px;
+}
+
+.specials-content-nav {
+  padding-right: 10px;
+}
+
+.specials-content-nav li {
+  list-style: none;
+  text-decoration: none;
+  height: 25%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.specials-content-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  border-right: 3px solid #cda45e;
+}
+
+.specials-content-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+
+}
+
+.specials-content-nav ul li:first-child {
+  background-color: #cda45e;
+}
+
+.specials-content-rightside {
+  display: flex;
+  width: 70%;
+}
+
+#Events {
+  padding: 50px 100px;
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://bootstrapmade.com/demo/templates/Restaurantly/assets/img/events-bg.jpg);
+  background-attachment: fixed;
+}
+
+.events-header {
+  display: flex;
+ flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+ }
+ 
+ .events-header-1strow {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .events-header-2ndrow {
+   height: 50%;
+   padding-top: 10px;
+ }
+ 
+ .events-header h1 {
+  font-family: 'Times New Roman', Times, serif;
+ color: #cda45e;
+ font-size: 36px;
+ }
+ 
+ .events-header h3 {
+   color: rgba(255, 255, 255, 0.8);
+   padding-right: 20px;
+   font-size: 14px;
+   letter-spacing: 2px;
+ }
+ 
+ .events-header-1strow div {
+   height: 0.5px;
+   width: 120px;
+ background-color: rgba(255, 255, 255, 0.356);
+ }
+
+ .events-container {
+   display: flex;
+   padding-top: 20px;
+ }
+
+.events-container-img {
+  padding-right: 10px;
+  width: 50%;
+}
+
+.events-container-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.events-container-dsc{
+  padding-left: 10px;
+}
+
+.events-container-dsc h1 {
+  color: #cda45e;
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.events-container-dsc h2 {
+  font-family: OpenSansBold;
+  font-size: 26px;
+  padding-top: 10px;
+  color: white;
+  border-bottom: 2px solid #cda45e;
+  font-weight: 900;
+  display: block;
+}
+
+.events-container-dsc i {
+  color: white;
+  padding-top: 10px;
+}
+
+.events-container-dsc p {
+color: white;
+padding-top: 10px;
+}
