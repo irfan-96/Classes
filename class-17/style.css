@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+}
+
+#div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    width: 100px;
+    height: 100px;
+  }
+
+  100% {
+    width: 1200px;
+    height: 700px;
+  }
+}

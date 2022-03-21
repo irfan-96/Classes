@@ -81,6 +81,7 @@ a {
 
 .main {
   height: 100vh;
+  background-color: rgb(18, 37, 41);
 }
 
 .hello {
@@ -121,15 +122,6 @@ a {
   display: flex;
 }
 
-@keyframes lefttoright {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(200%);
-  }
-}
-
 .flo {
   padding-top: 5px;
   height: 7vh;
@@ -151,16 +143,41 @@ a {
   border-bottom: 1px solid white;
 }
 
-.projects-header h1 {
+.projects-header-first {
+  display: flex;
+  height: 100%;
   position: absolute;
-  color: white;
-  font-size: 192px;
-  text-align: center;
   margin: 0;
   width: 100%;
-  letter-spacing: -10;
-  animation: righttoleft 15s linear infinite;
+  animation: righttoleft 20s linear infinite;
   transform: translateX();
+}
+
+.projects-header-first h1 {
+  letter-spacing: -10;
+  font-size: 192px;
+  text-align: center;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  margin: 0;
+}
+
+.projects-header-second {
+  display: flex;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  animation: lefttoright 20s linear infinite;
+  transform: translateX();
+}
+
+.projects-header-second h1 {
+  letter-spacing: -10;
+  font-size: 192px;
+  text-align: center;
+  color: white;
+  margin: 0;
 }
 
 @keyframes righttoleft {
@@ -171,4 +188,17 @@ a {
   100% {
     transform: translateX(-100%);
   }
+}
+
+@keyframes lefttoright {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.mojmeni {
+  background-image: url();
 }
