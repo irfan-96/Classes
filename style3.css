@@ -59,7 +59,7 @@ nav {
   position: absolute;
   width: 50%;
   transform: scaleX(0);
-  height: 1px;
+  height: 1.5px;
   bottom: 0;
   left: 0;
   background-color: white;
@@ -172,6 +172,15 @@ a {
   transform: translateX();
 }
 
+.projects-header-first h1:hover {
+  color: white;
+}
+
+.projects-header-second h1:hover {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
 .projects-header-second h1 {
   letter-spacing: -10;
   font-size: 192px;
@@ -182,7 +191,7 @@ a {
 
 @keyframes righttoleft {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
 
   100% {
