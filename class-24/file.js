@@ -56,3 +56,5 @@ function getHexColor(color) {
   }
 }
 console.log(getHexColor("red"));
+
+
