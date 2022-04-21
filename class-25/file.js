@@ -16,24 +16,71 @@
 //     friends: ['Suad', 'Daris']
 // }
 
-objekat.fullName = `${objekat.name} ${objekat.surname}`;
+// objekat.fullName = `${objekat.name} ${objekat.surname}`;
 
-var nizKorisnika = [{ name: "irfan" }, { name: "suad" }, { name: "nikola" }];
+// var nizKorisnika = [{ name: "irfan" }, { name: "suad" }, { name: "nikola" }];
 
-for (let i = 0; i < nizKorisnika.length; i++) {
-  const objekat = nizKorisnika[i];
+// for (let i = 0; i < nizKorisnika.length; i++) {
+//   const objekat = nizKorisnika[i];
 
-  if (element.name === "suad") {
-    console.log(element);
+//   if (element.name === "suad") {
+//     console.log(element);
+//   }
+// }
+
+// function findObject(niz, parametar, vrednostParametra) {
+//     for (let i = 0; i < nizKorisnika.length; i++) {
+//         const korisnik = niz[i];
+
+//         if (korisnik[parametar] === vrednostParametra) {
+//             return objekat
+//         }
+// }
+// findObject(nizKorisnika, "name", "suad");
+
+// function sum(n) {
+//   var s = 0;
+//   for (let i = 1; i <= n; i++) {
+//     s += i;
+//   }
+//   return s;
+// }
+
+// function sumR(n) {
+//   var sum = 0;
+//   if (n === 1) {
+//     return 1;
+//   }
+
+//   sum = n + sumR(n - 1);
+//   return sum;
+// }
+
+// function productR(n) {
+//   var sum = 1;
+//   if (n === 1) {
+//     return 1;
+//   }
+
+//   sum = n + productR(n - 1);
+//   return sum;
+// }
+
+// function countdown(n) {
+//   if (n === 1) {
+//     return 1;
+//   }
+
+//   var string = ` ${n} ${countdown(n - 1)}`;
+//   return string;
+// }
+
+function range(a, b) {
+  if (a === b) {
+    return b;
   }
+  var string = `${a}, ${range(a + 1, b)}`;
+  return string;
 }
 
-function findObject(niz, parametar, vrednostParametra) {
-    for (let i = 0; i < nizKorisnika.length; i++) {
-        const korisnik = niz[i];
-      
-        if (korisnik[parametar] === vrednostParametra) {
-            return objekat
-        }
-}
-findObject(nizKorisnika, "name", "suad");
+console.log(range(2, 5));
