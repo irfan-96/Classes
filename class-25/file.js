@@ -75,12 +75,39 @@
 //   return string;
 // }
 
-function range(a, b) {
-  if (a === b) {
-    return b;
-  }
-  var string = `${a}, ${range(a + 1, b)}`;
-  return string;
-}
+// function range(a, b) {
+//   if (a === b) {
+//     return b;
+//   }
+//   var string = `${a}, ${range(a + 1, b)}`;
+//   return string;
+// }
 
-console.log(range(2, 5));
+// console.log(range(2, 5
+//   ));
+
+const sum = (...args) => {
+  let tempSum = 0;
+
+  for (let index = 0; index < args.length; index++) {
+    const element = args[index];
+
+    if (typeof element === "number") {
+      tempSum += element;
+    }
+
+    if (typeof element === "string") {
+      // let value
+      // if(Object.is(+element, NaN)){
+      //   value = 0
+      // } else{
+      //   value = +element
+      // }
+      tempSum += Object.is(+element, NaN) ? 0 : +element;
+    }
+  }
+
+  return tempSum;
+};
+
+console.log(sum(1, 2, 3, 4, 5, 6, "1123 sdfsd"));
