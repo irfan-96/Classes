@@ -1,0 +1,21 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "random",
+  "main": "entry",
+
+  "start": "node main.js"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfan-96/Classes.git"
+  },
+  "author": "irfan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irfan-96/Classes/issues"
+  },
+  "homepage": "https://github.com/irfan-96/Classes#readme"
+}
